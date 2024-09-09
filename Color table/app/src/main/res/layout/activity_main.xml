@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:text="A"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_margin="2dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#EA1E63"
+            android:text="B"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_marginRight="2dp"/>            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/holo_purple"
+            android:text="C"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_marginRight="4dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/holo_blue_light"
+            android:text="D"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:background="#009788"
+            android:text="E"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_marginRight="4sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/holo_green_light"
+            android:text="F"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/holo_green_light"
+            android:text="G"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_marginRight="4dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:background="@android:color/holo_orange_light"
+            android:text="H"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:background="@android:color/holo_orange_dark"
+            android:text="I"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+    </TableRow>
+
+</TableLayout>
